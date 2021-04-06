@@ -15,7 +15,7 @@ echo ${YYYY}_${MM}_${DD}_tcp_port_scan.txt
 history > $HOME/Desktop/${YYYY}_${MM}_${DD}_history.txt
 
 #テキストにhistoryの結果が出ない。
-#historyコマンドをシェルスクリプトで操作する時はシェルの他の環境変数が必要？
+#シェルの他の環境変数が必要？
 
 ##ユーザからのy or nの入力待ち
 ##ここでの条件は「testという変数にAAAという文字列が格納されているか」
