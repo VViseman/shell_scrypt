@@ -16,8 +16,8 @@ read -p "Month :" MM
 read -p "Day   :" DD
 echo "-----------"
 echo $YYYY
-echo $DD
 echo $MM
+echo $DD
 
 #変数と文字列を連結した文字列でコマンドとしてプロンプトが受け付けてくれるか。
 echo ${YYYY}_${MM}_${DD}_tcp_port_scan.txt
@@ -39,4 +39,3 @@ if [ $test = "AAA" ]; then
   fi
 
 fi
-
